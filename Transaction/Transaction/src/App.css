@@ -1,0 +1,69 @@
+ody {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to left ,rgb(3, 126, 143) 0% ,rgb(2, 161, 148) 100% ) ;
+  justify-content: center;
+
+}
+
+.container{
+width: auto;
+height: 550px;
+background: linear-gradient(to left, cadetblue 0%, lightblue 100%);
+box-shadow: 0 19px 28px rgba(0, 0, .5, .6);
+padding: 20px;
+border: 2px, black;
+border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+
+input{
+background-color: transparent;
+border-bottom: #f2f2f2;
+border-bottom-width: 100px;
+outline: none;
+margin-top: 20px;
+}
+
+button {
+  border: none;
+  background-color: aquamarine;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#transactionForm {
+  font-family: cursive;
+}
+
+#searchInput {
+  font-family: cursive;
+}
+
+#transactionTable {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: cursive;
+}
+
+#transactionTable th, #transactionTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-family: cursive;
+}
+
+#transactionTable th {
+  background-color: #f2f2f2;
+}
+
+#transactionTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#transactionTable tbody tr:hover {
+  background-color: burlywood;
+}
